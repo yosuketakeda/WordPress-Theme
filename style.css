@@ -1,0 +1,381 @@
+/*
+    Theme Name : IPB
+    Author : Lili
+*/
+@font-face {
+    font-family: "Semplicitapro";
+    src: url("assets/fonts/SemplicitaPro-Medium.otf");
+    font-weight: normal;
+}
+body{
+    font-family: "Semplicitapro", sans-serif !important;
+}
+.pc{
+    display: block !important;
+}
+.sp{
+    display: none !important;
+}
+/****** Header ******/
+.navbar{
+    border-radius: 0;
+    background-color: #041528;
+    border: none;
+    color: #c4996c;
+    margin: 0;
+}
+.main-header{
+    display:flex;
+    padding: 0 70px;
+    height: 50px;
+    justify-content: space-between;
+}
+.nav-header .home-icon{
+    display: flex;
+    align-items: center;    
+    font-size: 15px;
+}
+.nav-header .home-icon-nav{
+    display: none;
+    align-items: center;    
+    font-size: 15px;
+}
+.nav-header .home-icon img{
+    margin-right: 7px;
+}
+.navbar-header{
+    display: flex;
+    align-items: center;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #c4996c;
+}
+.navbar-header button{ 
+    margin-left: auto;
+}
+.main-header a{
+    color: #c4996c;
+}
+.main-header .buy-now{
+    display: flex;
+    align-items: center;
+}
+.main-header .listbtn{
+    display: inline-flex;
+    align-items: center;
+}
+.main-header .listbtn a{
+    font-weight: bold;
+}
+.main-header #main-menu{
+    margin-left: auto;
+}
+.main-header .forum-icon{
+    display: flex;
+    align-items: center;
+}
+.main-header .forum-icon img{
+    width: 16px;
+    margin-right: 7px;
+}
+/********** Front page - HOME ***********/
+
+img.background{
+    width: 75%;
+}
+.first-section{
+    background-image: url('assets/images/first.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-section .title{    
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30%;
+}
+.first-section .text{
+    width: 80%;
+    margin:auto;
+    color: #fff;
+    font-size: 18px;
+    padding: 50px 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.first-section .top-btn{
+    text-align: center;
+    padding: 20px;    
+}
+.first-section .top-btn img{
+    width: 25%;
+}
+.first-section .top-arrow{
+    text-align: center;
+    padding: 10px 0 70px 0;
+}
+.second-section{
+    background-image: url('assets/images/second-back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: #fff;
+}
+.third-section{
+    background-image: url('assets/images/third-back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: #fff;
+}
+.forth-section{
+    background-image: url('assets/images/forth-back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: #fff;
+}
+.sidebar-img{
+    width: 4%;
+}
+.video{
+    width: 40%;
+}
+.video-txt{
+    width: 54%;
+    padding: 50px 40px;
+}
+.sidebar-img img{
+    width: 100%;
+    height: 100%;
+}
+.video img{
+    width: 100%;
+}
+.video-txt .title{
+    margin-bottom: 30px;
+}
+.video-txt .title p{
+    font-size: 30px;
+}
+.video-txt .comment p{
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.fifth-section{
+    background-image: url('assets/images/fifth-back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 4%;
+}
+.fifth-section .main-part{
+    display: flex;
+}
+.fifth-section .blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.fifth-section .block{
+    width: 32%;
+    padding: 50px;
+    background-color: #00000080;
+}
+.fifth-section .block p{
+    text-align: center;
+    font-size: 30px;
+}
+.fifth-section .block .comment{
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.fifth-section .block .img-sector{
+    padding: 50px 0;
+    text-align: center;
+}
+.fifth-section .block .img-sector img{
+    width: 90px;
+}
+.fifth-section .vertical-line{
+    height: 60%;
+}
+.fifth-section .vertical-line img{
+    margin-top: -450px;
+}
+.fifth-section .bottom-txt{
+    padding: 50px;   
+    font-size: 18px; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+/**************** footer ****************/
+.footer{
+    background-image: url('assets/images/footer-back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 120px 0;
+}
+.footer .title{
+    text-align: center;
+    font-size: 30px; 
+}
+.footer .icons{
+    text-align: center;
+    padding: 20px 0;
+}
+.footer .icons img{
+    width: 40%;
+}
+.footer .icon-group{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3.5%;
+}
+.footer .icon-group img{
+    width: 40px;    
+}
+.footer .icon-group a{
+    margin: 0 1%;
+}
+.footer .icon-group .facebook img{
+   height: 40px;
+   width: 22px;
+}
+.footer .bottom{
+    padding: 60px 3%;
+    display: flex;
+    justify-content: center;
+}
+.footer .bottom .item{
+    width: 25%;
+    padding-left: 50px;
+    border-left: 2px solid #c4996c;
+    line-height: 2.5rem;
+}
+.footer .bottom .item a{
+    color: #c4996c;
+
+}
+/****************************************/
+@media(max-width: 580px){
+    .pc{
+        display: none !important;
+    }
+    .sp{
+        display: block !important ;
+    }
+    .nav-header .home-icon{
+        display: none;
+    }
+    .nav-header .home-icon-nav{
+        display: flex;
+        margin-left: 20px;
+    }
+    .nav-header .home-icon-nav img{
+        margin-right: 5px;
+    }
+    .nav-header .main-header{
+        padding: 0;
+        display: none;
+    }
+    .main-header .buy-now, .main-header .forum{
+        display: none;
+    }
+    .logo{
+        width: 60%;
+        margin-left: 25%;
+        padding-top: 40px;
+    }
+    .first-section{
+        background-image: url('assets/images/mb_first_back.png');
+        
+    }
+    .first-section .title{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    .first-section .text{
+        padding: 30px 0;
+    }
+    .first-section .top-btn img{
+        width: 70%;
+    }
+    .first-section .top-btn{
+        padding-top: 0;
+    }
+    .first-section .top-arrow{
+        padding-bottom: 30px;
+    }
+    .second-section, .third-section, .forth-section{
+        /*padding: 20px;*/
+        display: block;
+    }
+    .video{
+        width: auto;
+    }
+    .video-txt{
+        width: auto;
+        padding: 25px;
+    }
+    .video-txt .title p{
+        font-size: 24px;
+    }
+    .fifth-section .blocks{
+        display: block;
+    }
+    .fifth-section .block{
+        width: auto;
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+    .fifth-section{
+        padding-top: 20px;
+        background-size: 100% 100%;
+    }
+    .fifth-section .block .img-sector{
+        padding: 0px 0 20px 0;
+    }
+    .fifth-section .block .img-sector img{
+        width: 20%;
+    }
+    .fifth-section .bottom-txt {
+        padding: 30px;
+    }
+    .footer{
+        padding: 50px 20px;
+    }
+    .footer .icons img {
+        width: 100%;
+    }
+    .footer .icon-group img {
+        width: 30px;
+    }
+    .footer .icon-group{
+        margin-top: 7.5%;
+        width: 95%;
+    }
+    .footer .icon-group a{
+        margin: 0 2%;
+    }
+    .footer .bottom{
+        display: block;
+    }
+    .footer .bottom .item{
+        width: 100%;
+        margin-bottom: 30px;
+        padding-left: 0;
+        text-align: center;
+    }
+}
